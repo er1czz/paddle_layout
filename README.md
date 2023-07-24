@@ -13,5 +13,5 @@ document layout analysis with paddle ocr and gradio UI
   ```
 - UI visualization is achieved by gradio
 
-- <p align="center"><img src="https://github.com/er1czz/vmd/blob/master/paddleOCR_gradio_demo.JPG?raw=true" style = "border:10px solid white"></p>  
+- <p align="center"><img src="https://github.com/er1czz/paddle_layout/blob/main/paddleOCR_gradio_demo.JPG" style = "border:10px solid white"></p>  
 
