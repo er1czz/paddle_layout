@@ -4,13 +4,15 @@ import cv2
 import subprocess
 import os
 
+
 def main_fn(image_filepath):
     # extract the file name from full path
     image_name = os.path.basename(image_filepath)
 
-    # convert to string
+    # convert to string and replace the backslash with forward slash 
     image_filepath = str(image_filepath).replace(os.sep, '/')
     
+
     model_dir = 'pretrained_model/picodet_lcnet_x1_0_fgd_layout_infer'
     device='cpu'
     cmd_str = f"python deploy/python/infer.py --model_dir={model_dir} --image_file={image_filepath} --device={device}"
@@ -26,7 +28,6 @@ def main_fn(image_filepath):
     output_img = cv2.imread(os.path.join('output', image_name))
   
     return image_name, output_img
-
 
 def test_fn(image_file):
     return image_file
