@@ -14,5 +14,6 @@ document layout analysis with paddle OCR and gradio UI
     --device=CPU
   ```
 - UI visualization is achieved by gradio
+- gradio will read image file path with backslash ```\``` as the seperator, which need to be converted into forward slash ```/```
 <p align="center"><img src="https://github.com/er1czz/paddle_layout/blob/main/paddleOCR_gradio_demo.JPG" style = "border:10px solid white"></p>  
 
