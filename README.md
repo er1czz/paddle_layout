@@ -8,7 +8,7 @@ document layout analysis with paddle OCR and gradio UI
 - layout analysis is through command line (example below), which is executed via python subprocess.
   ```
   python deploy/python/infer.py \
-    --model_dir=output_inference/picodet_lcnet_x1_0_layout/ \
+    --model_dir=pretrained_model/picodet_lcnet_x1_0_fgd_layout_infer/ \
     --image_file=docs/images/layout.jpg \
     --device=CPU
   ```
