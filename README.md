@@ -1,4 +1,4 @@
-# paddle_layout
+# paddle_layout_gradio
 document layout analysis with paddle ocr and gradio UI
 
 - reference: https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.6/ppstructure/layout#32-Install-paddledetection
@@ -12,3 +12,6 @@ document layout analysis with paddle ocr and gradio UI
     --device=CPU
   ```
 - UI visualization is achieved by gradio
+
+- <p align="center"><img src="https://github.com/er1czz/vmd/blob/master/paddleOCR_gradio_demo.JPG?raw=true" style = "border:10px solid white"></p>  
+
