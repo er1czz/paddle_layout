@@ -1,7 +1,7 @@
 # paddle_layout_gradio
 document layout analysis with paddle OCR and gradio UI
 - reference: https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.6/ppstructure/layout#32-Install-paddledetection
-- run demo.py
+- run [demo.py](https://github.com/er1czz/paddle_layout/blob/main/demo.py)
 ### key note
 - OS: Windows 10 Pro
 - create conda virtual env under python 3.8
