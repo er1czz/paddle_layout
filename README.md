@@ -50,7 +50,6 @@ def main_fn(image_filepath):
     return image_name, output_img
 
 
-#inputs =  [gr.Text(label='Type image full name here'), gr.Image(type='filepath', label='Drage input image here')]
 inputs =  [gr.Image(type='filepath', label='Drage input image here')]
 outputs = [gr.Text(label='Image name'), gr.Image(label='Image output with annotation')]
 demo = gr.Interface(fn=main_fn, inputs=inputs, outputs=outputs)
